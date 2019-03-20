@@ -21,7 +21,7 @@ services:
     ports:
       - "9000:80"
     volumes: # Mount relative path source folder on host to absolute path destination folder on docker container
-      - ~/docker/wordpress/public_html:/var/www/html
+      - ~/docker/DockerWordPress/public_html:/var/www/html
     links: 
       - db
     restart: always
